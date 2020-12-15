@@ -7,7 +7,7 @@ import {
   FormContainer,
   LogoInvert,
   Button,
-  Login_Sign_Container,
+  LoginSignContainer,
 } from "./Styles/styles";
 import InputComponent from "../Components/Inputs/InputComponent";
 
@@ -57,7 +57,7 @@ export default function LoginPage() {
   };
 
   return (
-    <Login_Sign_Container>
+    <LoginSignContainer>
       <LogoInvert src={Logo} />
 
       <h4>Entrar</h4>
@@ -85,6 +85,6 @@ export default function LoginPage() {
           </p>
         </div>
       </FormContainer>
-    </Login_Sign_Container>
+    </LoginSignContainer>
   );
 }
