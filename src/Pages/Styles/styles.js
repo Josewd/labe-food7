@@ -87,7 +87,7 @@ export const AddressContainer = styled.div`
   background-color: #eeeeee;
 `;
 
-export const Login_Sign_Container = styled(MainContainer)`
+export const LoginSignContainer = styled(MainContainer)`
   position: absolute;
   top: 50%;
   left: 50%;
